@@ -9,6 +9,5 @@ const reverseStr = (str) => {
    }
    
  
-  console.log(reverseStr("Hello"))
+   console.log(reverseStr("Hello"))
  
- reverseStr('Hello')
