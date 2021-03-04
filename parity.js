@@ -1,20 +1,5 @@
-const isOdd = (nombre) => {
- if (nombre % 2 === 0  ){
-    return false
 
- }
- else{
-        return true
-  }  
+const isEven = (nb) => {
+return nb % 2 !== 0 ? true : false
 }
-console.log(isOdd(10))
-   
- 
-const isPeer = (nombre2) =>{
-     return !isOdd(nombre2)
- }  
- 
- console.log(isPeer(10))
-  
- 
-// isOdd()
+console.log(isEven(2))
